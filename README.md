@@ -24,6 +24,10 @@ For those concerned about this app, a [privacy policy](https://github.com/Contro
 ## BRMM Showcase:
 
 <img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG" alt="Installation Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_mod_installation.PNG" alt="Home Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_modpacks.PNG" alt="Home Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_mods.PNG" alt="Home Screenshot">
+
 
 ## Getting Started with BRMM:
 
