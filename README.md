@@ -36,9 +36,11 @@ For those of you who want to install mods manually, take a look at Atomic's vid 
   </a>
 </p>
 
+## Getting Started:
+
+
 > [!IMPORTANT]
 > BRMM needs to be run as an administrator to work properly. (I know it's kind of annoying, but I will fix it in the next update.)
-
 
 ## Contributing to BRMM
 
