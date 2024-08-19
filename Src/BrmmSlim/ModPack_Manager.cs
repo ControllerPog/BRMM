@@ -199,16 +199,9 @@ namespace BrmmSlim
 
                                 string modFilePath = "./Mods/" + mods.Name.Replace(" ", "_") + ".zip";
 
-                                if (File.Exists(modFilePath))
-                                {
-                                    // Optionally delete the existing mod file
-                                    // File.Delete(modFilePath);
-                                }
-
 
                                 var fileDownloader = new ModStatus();
                                 fileDownloader.Show();
-                                // Add download task to the list
                                 downloadTasks.Add(Task.Run(() => fileDownloader.DownloadFile(token, mods.Name.Replace(" ", "_"))));
 
                                 isUpdated = true;

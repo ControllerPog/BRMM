@@ -67,6 +67,9 @@ namespace BrmmSlim
             string apiUrl = $"https://service.brmm.ovh/api/download/{token}/{fileName}.zip";
             string modsFolderPath = "./Mods";
 
+
+            Console.WriteLine("Downloading " + fileName);
+
             //main_label.Text = "Downloading " + fileName;
 
             if (!Directory.Exists(modsFolderPath))
