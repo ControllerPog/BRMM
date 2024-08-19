@@ -75,6 +75,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_03AF5D3666834DC997D243021417FAEB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_03BD5178943D4DB69CF332053D101DFF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -112,6 +118,12 @@
         "Entry"
         {
         "MsmKey" = "8:_09300D674DE047B48C567EFEC5334EC9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_093C7884E37A4A018F7C603C4B5EA5A8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -172,12 +184,6 @@
         "Entry"
         {
         "MsmKey" = "8:_0E60064776C74577A9162763A88C92CD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_0EA6B52CFFEA4620ADF4B8AB33E7D0D1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -261,7 +267,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_1945B0D632FC4C58A460287258540C07"
+        "MsmKey" = "8:_18EB800A529E4DFEB022392C0B7D3C1B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -291,6 +297,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_1B900349E14A40C4BD4BE3A1E547E805"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_1C164A3208D3478EBCF1E6A871F9C41A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -304,12 +316,6 @@
         "Entry"
         {
         "MsmKey" = "8:_1CA7BAC5288A4C91B21F4E785D704A03"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_1CD5948A847D4F2FA6CF47C8C55EEA6E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -447,12 +453,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_25C1331FCA8947BF9262B87735ECD63D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_268B4751362747F39E193FC82AF1829C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -478,12 +478,6 @@
         "Entry"
         {
         "MsmKey" = "8:_28509188A48444549AFD2F85AF31AC8F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_28767C4E6C0E48AEB82564B490B05039"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -538,12 +532,6 @@
         "Entry"
         {
         "MsmKey" = "8:_2F076364C0E941EFBC1B143FC9A0EF9E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_2F8DA2FF8D724A599C67189DA9534BF8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -777,12 +765,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3FD8805102FA4F518D2E20A6930CDC44"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4098AD106AA14534B4B5B4726C9156B7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -796,6 +778,12 @@
         "Entry"
         {
         "MsmKey" = "8:_433A0C56876F475C9111AAD0731FAC24"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4390FFE3A1694884AE56FC71F155D94C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -879,7 +867,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_4918C963B1B54F41A78AE29D49F6A2A1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4A0B351CE7A1444390D5D3D081DBEECE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4A1F86F6BFE148ABBD8E854FD2FE3FE4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -898,12 +898,6 @@
         "Entry"
         {
         "MsmKey" = "8:_4C506588EC564AF2B9F99BD74CC7C18B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4C70798683BD4BAD94561B79A8658132"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1023,12 +1017,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_5819C4B88F3742748EA52A7FD44CFF01"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5834671D194F4EE8BFBA2AA1D2FED420"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1113,12 +1101,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_65866B265AA7491D959EA38E7C830837"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_664E07C1D5764480BC42F0B4D466A1E4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1149,19 +1131,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_67BF9ECD2EA64EC398C3E51AE1ED5725"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_67FF58288F4E4F0BAEB1EFA3B0BFE690"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6829BF56C6244F75BABBDF50B08A5F43"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1185,13 +1155,25 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_69CDDDE6BAED43468DF546C9FCADDE81"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D6EA008C0B94AAFBF0FCAC2D84802A1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6DE8A1B9D7314B0699B414271B037DF7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_6EE61E7867EB417CBDC7E3C98D4CF517"
+        "MsmKey" = "8:_6E93F0CC0AF74FB48C272541EEB0DB6B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1215,6 +1197,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_71EE4CF525FC4A09AD953EEA9F2C32D1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_724FD714C73B419E9B3F7DFE6C88F0DE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1233,18 +1221,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_74A7B8C5AC5F4DA6A622AC8DCC292BE8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_74ABE63803D2486DA9C6DA0EB1B4443D"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_76694720CAD949FA9539B6EC8BECF803"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1253,6 +1229,12 @@
         {
         "MsmKey" = "8:_774A2BA9970B4F5E30F4FDD6E39B2CB1"
         "OwnerKey" = "8:_3DC05D656E0F31D5EFD7DEC7BAB68CFC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_775CE3446D1849CFA08603F3759B738A"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1282,12 +1264,6 @@
         "Entry"
         {
         "MsmKey" = "8:_7AA553D8055045BDABCE6736D277E881"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_7BDC1226244D4CF094FC8439C356FDB0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1443,6 +1419,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8EF3EF34E5A94BBAAC33AC5354B7FB02"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8FC43374C78945788A8BCF3EE9C0E25C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1479,13 +1461,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_92054073862B426C9345681AD704C07C"
+        "MsmKey" = "8:_94190122C2B940CE9A05AD994F676276"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_94190122C2B940CE9A05AD994F676276"
+        "MsmKey" = "8:_9425AF60BDB64293B56EDC929672487A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1515,6 +1497,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9654CD8580C04B508A55C54A9B5F92D7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_979375D831BF466DBD53218BD811A131"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1528,12 +1516,6 @@
         "Entry"
         {
         "MsmKey" = "8:_9802EC7E9C5742D8B419C24B861FE2C4"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_987B52FF2D7B473081600C872FD53573"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1605,12 +1587,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_9DE8EBE8A1E74CAD9B9C5AC9DFC9FAD5"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9F0610148696496D89BD45F867E712FF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1641,6 +1617,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A27536180C9C49829A0E0BC5FC943D1E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A2B6D5A8C7E7425587EEDA597EF250FD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1654,12 +1636,6 @@
         "Entry"
         {
         "MsmKey" = "8:_A2DDD1C35B054BBF847828C850D44437"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_A39F0AB65CBD485E9A293F4640686336"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1683,13 +1659,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_A72E624118164AE1894A695A5054B47D"
+        "MsmKey" = "8:_A6E74D46E8754B12B288E61CF71A66E9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A831BC55124440AE9C0D070EA110F613"
+        "MsmKey" = "8:_A72E624118164AE1894A695A5054B47D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1732,6 +1708,12 @@
         "Entry"
         {
         "MsmKey" = "8:_ACC36826DBBA488FB8FAE6CF6C44F893"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AE15230CFA6548428557F03C07DF1150"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1839,12 +1821,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_B798889978544F14A5BDEBC9F60565C7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B7A37470BDA34129919DD846D372D49C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1852,12 +1828,6 @@
         "Entry"
         {
         "MsmKey" = "8:_B89832C0DE8F4BCD895D5550622F1B17"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B8A3358E45E84B6293784A2EAD140B35"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1905,6 +1875,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BB812ED364874110A4C9A285B540542E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BBD74232FA0B4FA0B1FE6E55D14A55F2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_BC0B82A75708495784E66E31A10FCECF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1918,6 +1900,12 @@
         "Entry"
         {
         "MsmKey" = "8:_BC281AA8FF074921BAAE59B3DB1B6AAA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BC8FA33179D94E22BFA83A62FAE89FC4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1995,12 +1983,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_C427984599F443CB89DB63415790C855"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C435EEFD21354A42B3C3EECC1BF5AFEB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2008,12 +1990,6 @@
         "Entry"
         {
         "MsmKey" = "8:_C4905F5152614D519B238039C9A10BF9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C544EAE32A544A17A5A3A8D0917F7B19"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2079,6 +2055,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_CB1E9218DFBB431C84CA486E728CEEF9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_CB30CCDEABE24CB0A7DB0B074E842068"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2121,12 +2103,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CE36B9B0138449C1BFAADC04ED5495AA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_CE8D58AA85B8406DA87DE293562CEE60"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2152,6 +2128,12 @@
         "Entry"
         {
         "MsmKey" = "8:_D1663846BF0D495DBCFC8CADF7813970"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D1A628E15C49493C82EA6C422DDDA139"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2253,12 +2235,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D7C8263E5D71484CA4F68EC86B8EEFDC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_DAEB4283674C40B181AF49176987BCEB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2278,12 +2254,6 @@
         "Entry"
         {
         "MsmKey" = "8:_DC4844AEC9D74DC5B366272A85DE82BC"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DC8892380FD04B56A0922CB8DC3E3BC7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2325,7 +2295,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E40B678D100549ED928A89BAF6B9A4D8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E4B8D89F68C34A3CA3FA79EA560D4A6D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E4CB77D53BE6458FA254E4EBDB8F96C8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2361,6 +2343,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E8D396E308644FCE836F4F657F735FDC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E8EFB926410B42C6A1456534BD7F83E8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E9003E6E6BE9439D98AAE89850ACC456"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -2386,6 +2380,12 @@
         "Entry"
         {
         "MsmKey" = "8:_EC05C5B790F042F398895A1EFCD5F884"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ECFED5426AD54F969733C9A47596D820"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2434,12 +2434,6 @@
         "Entry"
         {
         "MsmKey" = "8:_F2FF1AA9A12442E7940E63C4F85E1973"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F39D652D5E1C4059AACF13A807503F5C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2942,6 +2936,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03AF5D3666834DC997D243021417FAEB"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\link.svg"
+            "TargetName" = "8:link.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_03BD5178943D4DB69CF332053D101DFF"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Code Cache\\js\\c2b800b9fc49fc94_0"
@@ -3068,6 +3082,26 @@
             "TargetName" = "8:f_000003"
             "Tag" = "8:"
             "Folder" = "8:_8F8C2F169DA84CD28A7AB49FCF11D669"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_093C7884E37A4A018F7C603C4B5EA5A8"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\discord.svg"
+            "TargetName" = "8:discord.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3268,26 +3302,6 @@
             "TargetName" = "8:hyph-mn-cyrl.hyb"
             "Tag" = "8:"
             "Folder" = "8:_28BDEA5F5FBE4807AC1849500F4039EA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0EA6B52CFFEA4620ADF4B8AB33E7D0D1"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\4.png"
-            "TargetName" = "8:4.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3562,12 +3576,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1945B0D632FC4C58A460287258540C07"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18EB800A529E4DFEB022392C0B7D3C1B"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\mainimge.jpg"
             "TargetName" = "8:mainimge.jpg"
             "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3662,6 +3676,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1B900349E14A40C4BD4BE3A1E547E805"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\image_brmm.png"
+            "TargetName" = "8:image_brmm.png"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1C164A3208D3478EBCF1E6A871F9C41A"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\DashTrackerDatabase"
@@ -3719,26 +3753,6 @@
             "TargetName" = "8:hyph-eu.hyb"
             "Tag" = "8:"
             "Folder" = "8:_28BDEA5F5FBE4807AC1849500F4039EA"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1CD5948A847D4F2FA6CF47C8C55EEA6E"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
-            "TargetName" = "8:search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4204,26 +4218,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_25C1331FCA8947BF9262B87735ECD63D"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\main.html"
-            "TargetName" = "8:main.html"
-            "Tag" = "8:"
-            "Folder" = "8:_AD2EDF7EA1DA4DC1AC02FD55D094117C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_268B4751362747F39E193FC82AF1829C"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\PreferredApps"
@@ -4310,26 +4304,6 @@
             "TargetName" = "8:6cd683ee8676f9f3_0"
             "Tag" = "8:"
             "Folder" = "8:_BF8AFEC210CC48ADAF9FDBAFBCA41B42"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_28767C4E6C0E48AEB82564B490B05039"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\brmm.png"
-            "TargetName" = "8:brmm.png"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4510,26 +4484,6 @@
             "TargetName" = "8:the-real-index"
             "Tag" = "8:"
             "Folder" = "8:_6C48616468A74C4A8B5635BE9A121A33"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F8DA2FF8D724A599C67189DA9534BF8"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\8.png"
-            "TargetName" = "8:8.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5317,26 +5271,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3FD8805102FA4F518D2E20A6930CDC44"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\code.svg"
-            "TargetName" = "8:code.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4098AD106AA14534B4B5B4726C9156B7"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Session Storage\\LOG.old"
@@ -5383,6 +5317,26 @@
             "TargetName" = "8:NetworkDataMigrated"
             "Tag" = "8:"
             "Folder" = "8:_D23E5803ADD245F083462BB4F9CBE7A1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4390FFE3A1694884AE56FC71F155D94C"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\6.png"
+            "TargetName" = "8:6.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5657,6 +5611,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4918C963B1B54F41A78AE29D49F6A2A1"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\extension_44dp_E8EAED_FILL1_wght700_GRAD200_opsz20.svg"
+            "TargetName" = "8:extension_44dp_E8EAED_FILL1_wght700_GRAD200_opsz20.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4A1F86F6BFE148ABBD8E854FD2FE3FE4"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\andrea-de-santis-lCfNbA9UtSk-unsplash.jpg"
+            "TargetName" = "8:andrea-de-santis-lCfNbA9UtSk-unsplash.jpg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4A500AAC43FC497BAE419DB1E8D87D5D"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\TrustTokenKeyCommitments\\2024.8.16.5\\keys.json"
@@ -5703,26 +5697,6 @@
             "TargetName" = "8:index"
             "Tag" = "8:"
             "Folder" = "8:_7E1FBF7CB51846BC856E1EF7F4B3D2E3"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4C70798683BD4BAD94561B79A8658132"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\other_houses_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "TargetName" = "8:other_houses_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6117,26 +6091,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5819C4B88F3742748EA52A7FD44CFF01"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\3.png"
-            "TargetName" = "8:3.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5834671D194F4EE8BFBA2AA1D2FED420"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Download Service\\EntryDB\\LOG.old"
@@ -6417,26 +6371,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_65866B265AA7491D959EA38E7C830837"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\login.html"
-            "TargetName" = "8:login.html"
-            "Tag" = "8:"
-            "Folder" = "8:_AD2EDF7EA1DA4DC1AC02FD55D094117C"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_664E07C1D5764480BC42F0B4D466A1E4"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Feature Engagement Tracker\\AvailabilityDB\\LOG.old"
@@ -6537,52 +6471,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67BF9ECD2EA64EC398C3E51AE1ED5725"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\widgets_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "TargetName" = "8:widgets_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67FF58288F4E4F0BAEB1EFA3B0BFE690"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\GrShaderCache\\f_00000c"
             "TargetName" = "8:f_00000c"
             "Tag" = "8:"
             "Folder" = "8:_8F8C2F169DA84CD28A7AB49FCF11D669"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6829BF56C6244F75BABBDF50B08A5F43"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\11.png"
-            "TargetName" = "8:11.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6657,6 +6551,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_69CDDDE6BAED43468DF546C9FCADDE81"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\delete_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "TargetName" = "8:delete_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D6EA008C0B94AAFBF0FCAC2D84802A1"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\login.html"
+            "TargetName" = "8:login.html"
+            "Tag" = "8:"
+            "Folder" = "8:_C5DA2934F3334137835DE3F6779FD730"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6DE8A1B9D7314B0699B414271B037DF7"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Extension Cookies-journal"
@@ -6677,12 +6611,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6EE61E7867EB417CBDC7E3C98D4CF517"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6E93F0CC0AF74FB48C272541EEB0DB6B"
             {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\discord.svg"
-            "TargetName" = "8:discord.svg"
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\9.png"
+            "TargetName" = "8:9.png"
             "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6757,6 +6691,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_71EE4CF525FC4A09AD953EEA9F2C32D1"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\code.svg"
+            "TargetName" = "8:code.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_724FD714C73B419E9B3F7DFE6C88F0DE"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Extension State\\000003.log"
@@ -6803,46 +6757,6 @@
             "TargetName" = "8:data_2"
             "Tag" = "8:"
             "Folder" = "8:_F123BA8BF27C49D499580AA5406E9FC9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74A7B8C5AC5F4DA6A622AC8DCC292BE8"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\9.png"
-            "TargetName" = "8:9.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_74ABE63803D2486DA9C6DA0EB1B4443D"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\1.png"
-            "TargetName" = "8:1.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6906,6 +6820,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_775CE3446D1849CFA08603F3759B738A"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\github.html"
+            "TargetName" = "8:github.html"
+            "Tag" = "8:"
+            "Folder" = "8:_C5DA2934F3334137835DE3F6779FD730"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_779D786CAE7549E5B214C5FC70456832"
@@ -6994,26 +6928,6 @@
             "TargetName" = "8:Top Sites-journal"
             "Tag" = "8:"
             "Folder" = "8:_82768FC16D504B43B4B247436C6814D7"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7BDC1226244D4CF094FC8439C356FDB0"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\image_brmm.png"
-            "TargetName" = "8:image_brmm.png"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7539,6 +7453,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8EF3EF34E5A94BBAAC33AC5354B7FB02"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\main.html"
+            "TargetName" = "8:main.html"
+            "Tag" = "8:"
+            "Folder" = "8:_C5DA2934F3334137835DE3F6779FD730"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8FC43374C78945788A8BCF3EE9C0E25C"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Extension Scripts\\LOCK"
@@ -7659,12 +7593,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_92054073862B426C9345681AD704C07C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94190122C2B940CE9A05AD994F676276"
             {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\7.png"
-            "TargetName" = "8:7.png"
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\LOCK"
+            "TargetName" = "8:LOCK"
             "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
+            "Folder" = "8:_82768FC16D504B43B4B247436C6814D7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7679,12 +7613,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_94190122C2B940CE9A05AD994F676276"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9425AF60BDB64293B56EDC929672487A"
             {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\LOCK"
-            "TargetName" = "8:LOCK"
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+            "TargetName" = "8:search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
             "Tag" = "8:"
-            "Folder" = "8:_82768FC16D504B43B4B247436C6814D7"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7779,6 +7713,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9654CD8580C04B508A55C54A9B5F92D7"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\widgets_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "TargetName" = "8:widgets_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_979375D831BF466DBD53218BD811A131"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\SharedStorage"
@@ -7825,26 +7779,6 @@
             "TargetName" = "8:01f3f96ca7150815_0"
             "Tag" = "8:"
             "Folder" = "8:_BF8AFEC210CC48ADAF9FDBAFBCA41B42"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_987B52FF2D7B473081600C872FD53573"
-            {
-            "SourcePath" = "8:G:\\down\\Nowy folder (2)\\brmm.ico"
-            "TargetName" = "8:brmm.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_43DEE9ECB7C245CE84AACD3CD07FF38D"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8050,26 +7984,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9DE8EBE8A1E74CAD9B9C5AC9DFC9FAD5"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\2.png"
-            "TargetName" = "8:2.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F0610148696496D89BD45F867E712FF"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Extension Scripts\\LOG"
@@ -8170,6 +8084,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A27536180C9C49829A0E0BC5FC943D1E"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\11.png"
+            "TargetName" = "8:11.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A2B6D5A8C7E7425587EEDA597EF250FD"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\ExtensionActivityEdge"
@@ -8216,26 +8150,6 @@
             "TargetName" = "8:Token Bindings"
             "Tag" = "8:"
             "Folder" = "8:_D23E5803ADD245F083462BB4F9CBE7A1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A39F0AB65CBD485E9A293F4640686336"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\andrea-de-santis-lCfNbA9UtSk-unsplash.jpg"
-            "TargetName" = "8:andrea-de-santis-lCfNbA9UtSk-unsplash.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8310,12 +8224,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A72E624118164AE1894A695A5054B47D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6E74D46E8754B12B288E61CF71A66E9"
             {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\hyphen-data\\101.0.4906.0\\hyph-gu.hyb"
-            "TargetName" = "8:hyph-gu.hyb"
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\2.png"
+            "TargetName" = "8:2.png"
             "Tag" = "8:"
-            "Folder" = "8:_28BDEA5F5FBE4807AC1849500F4039EA"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8330,12 +8244,12 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A831BC55124440AE9C0D070EA110F613"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A72E624118164AE1894A695A5054B47D"
             {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\10.png"
-            "TargetName" = "8:10.png"
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\hyphen-data\\101.0.4906.0\\hyph-gu.hyb"
+            "TargetName" = "8:hyph-gu.hyb"
             "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
+            "Folder" = "8:_28BDEA5F5FBE4807AC1849500F4039EA"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8487,6 +8401,26 @@
             "TargetName" = "8:LOG"
             "Tag" = "8:"
             "Folder" = "8:_9761EFE8AB4047F4840E053D27DE564F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AE15230CFA6548428557F03C07DF1150"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\8.png"
+            "TargetName" = "8:8.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -8841,26 +8775,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B798889978544F14A5BDEBC9F60565C7"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\link.svg"
-            "TargetName" = "8:link.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B7A37470BDA34129919DD846D372D49C"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Code Cache\\js\\f6a36a53075126d2_0"
@@ -8887,26 +8801,6 @@
             "TargetName" = "8:CrashpadMetrics-active.pma"
             "Tag" = "8:"
             "Folder" = "8:_BD02196C34B54996854C3B999CA034F5"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B8A3358E45E84B6293784A2EAD140B35"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\github.html"
-            "TargetName" = "8:github.html"
-            "Tag" = "8:"
-            "Folder" = "8:_AD2EDF7EA1DA4DC1AC02FD55D094117C"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9061,6 +8955,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB812ED364874110A4C9A285B540542E"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\1.png"
+            "TargetName" = "8:1.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BBD74232FA0B4FA0B1FE6E55D14A55F2"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\7.png"
+            "TargetName" = "8:7.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BC0B82A75708495784E66E31A10FCECF"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\BudgetDatabase\\LOG"
@@ -9107,6 +9041,26 @@
             "TargetName" = "8:data_0"
             "Tag" = "8:"
             "Folder" = "8:_897CA88A87DB40F8A85EBF14875FB45E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BC8FA33179D94E22BFA83A62FAE89FC4"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\brmm.png"
+            "TargetName" = "8:brmm.png"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9361,26 +9315,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C427984599F443CB89DB63415790C855"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\delete_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "TargetName" = "8:delete_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C435EEFD21354A42B3C3EECC1BF5AFEB"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Site Characteristics Database\\lost\\MANIFEST-000001"
@@ -9407,26 +9341,6 @@
             "TargetName" = "8:LOG.old"
             "Tag" = "8:"
             "Folder" = "8:_9FC444F1A8B34059B3BA58735E7C68EF"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C544EAE32A544A17A5A3A8D0917F7B19"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\extension_44dp_E8EAED_FILL1_wght700_GRAD200_opsz20.svg"
-            "TargetName" = "8:extension_44dp_E8EAED_FILL1_wght700_GRAD200_opsz20.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9641,6 +9555,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB1E9218DFBB431C84CA486E728CEEF9"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\4.png"
+            "TargetName" = "8:4.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CB30CCDEABE24CB0A7DB0B074E842068"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Network\\Token Bindings-journal"
@@ -9781,26 +9715,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE36B9B0138449C1BFAADC04ED5495AA"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\polonez_clouds.png"
-            "TargetName" = "8:polonez_clouds.png"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CE8D58AA85B8406DA87DE293562CEE60"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\Code Cache\\js\\f8a3f912561c6a4a_0"
@@ -9887,6 +9801,26 @@
             "TargetName" = "8:heavy_ad_intervention_opt_out.db"
             "Tag" = "8:"
             "Folder" = "8:_82768FC16D504B43B4B247436C6814D7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D1A628E15C49493C82EA6C422DDDA139"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\5.png"
+            "TargetName" = "8:5.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10221,26 +10155,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D7C8263E5D71484CA4F68EC86B8EEFDC"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\5.png"
-            "TargetName" = "8:5.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DAEB4283674C40B181AF49176987BCEB"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Subresource Filter\\Unindexed Rules\\10.34.0.54\\Part-FR"
@@ -10307,26 +10221,6 @@
             "TargetName" = "8:94517266936f022a_0"
             "Tag" = "8:"
             "Folder" = "8:_BF8AFEC210CC48ADAF9FDBAFBCA41B42"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DC8892380FD04B56A0922CB8DC3E3BC7"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\warning.svg"
-            "TargetName" = "8:warning.svg"
-            "Tag" = "8:"
-            "Folder" = "8:_96975923049A41C4928EA3E9A2BFD346"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10461,12 +10355,52 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E40B678D100549ED928A89BAF6B9A4D8"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\3.png"
+            "TargetName" = "8:3.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E4B8D89F68C34A3CA3FA79EA560D4A6D"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\hyphen-data\\101.0.4906.0\\hyph-da.hyb"
             "TargetName" = "8:hyph-da.hyb"
             "Tag" = "8:"
             "Folder" = "8:_28BDEA5F5FBE4807AC1849500F4039EA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E4CB77D53BE6458FA254E4EBDB8F96C8"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\polonez_clouds.png"
+            "TargetName" = "8:polonez_clouds.png"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10581,6 +10515,46 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8D396E308644FCE836F4F657F735FDC"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\10.png"
+            "TargetName" = "8:10.png"
+            "Tag" = "8:"
+            "Folder" = "8:_A24D28C120C94B0C9044812C0B9FD172"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E8EFB926410B42C6A1456534BD7F83E8"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\warning.svg"
+            "TargetName" = "8:warning.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E9003E6E6BE9439D98AAE89850ACC456"
             {
             "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\BrmmSlim.exe.WebView2\\EBWebView\\Default\\PrivateAggregation-journal"
@@ -10667,6 +10641,26 @@
             "TargetName" = "8:metadata"
             "Tag" = "8:"
             "Folder" = "8:_B26FADBAA7B34D66BD015B06024BF1A0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_ECFED5426AD54F969733C9A47596D820"
+            {
+            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\other_houses_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "TargetName" = "8:other_houses_44dp_E8EAED_FILL1_wght700_GRAD200_opsz48.svg"
+            "Tag" = "8:"
+            "Folder" = "8:_5060AB85420A495E895003041E6C9C77"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10827,26 +10821,6 @@
             "TargetName" = "8:Network Persistent State"
             "Tag" = "8:"
             "Folder" = "8:_D23E5803ADD245F083462BB4F9CBE7A1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F39D652D5E1C4059AACF13A807503F5C"
-            {
-            "SourcePath" = "8:..\\BrmmSlim\\bin\\Debug\\html\\Assets\\gallery\\6.png"
-            "TargetName" = "8:6.png"
-            "Tag" = "8:"
-            "Folder" = "8:_692E6DAAA175489DB4DA3CBBD62FE366"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -12490,31 +12464,31 @@
                         {
                         }
                     }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_AD2EDF7EA1DA4DC1AC02FD55D094117C"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_C5DA2934F3334137835DE3F6779FD730"
                     {
                     "Name" = "8:html"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_C42CE49D052F47C0818D98324B4ADB2C"
+                    "Property" = "8:_69A605750E934B96BD13C92C9C2D886D"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_96975923049A41C4928EA3E9A2BFD346"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_5060AB85420A495E895003041E6C9C77"
                             {
                             "Name" = "8:Assets"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_B2A4ADA098FF4526A997FE9DB645BD19"
+                            "Property" = "8:_D5473539D5C8487FA14B0596BBB6F5C6"
                                 "Folders"
                                 {
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_692E6DAAA175489DB4DA3CBBD62FE366"
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A24D28C120C94B0C9044812C0B9FD172"
                                     {
                                     "Name" = "8:gallery"
                                     "AlwaysCreate" = "11:FALSE"
                                     "Condition" = "8:"
                                     "Transitive" = "11:FALSE"
-                                    "Property" = "8:_B71CA907188E48BE8F14E21578F83B51"
+                                    "Property" = "8:_FAD77A6314F647A9A1CAF415076CCB90"
                                         "Folders"
                                         {
                                         }
