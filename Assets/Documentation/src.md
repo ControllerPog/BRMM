@@ -6,7 +6,7 @@ To open the BRMM from source, you'll need:
 - `Visual Studio`
 - `.Net Framework 4.7.2`
 - `webview2` aka Bootstrapper
-
+- `Microsoft Visual Studio Installer Projects 2022` extension
 
 > [!TIP]
 > If project says that it is missing dependencies, you can redownload this NuGet dependencies:
