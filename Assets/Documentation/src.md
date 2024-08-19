@@ -10,10 +10,10 @@ To open the BRMM from source, you'll need:
 > [!TIP]
 > If project says that is missing deoebdecies u can redownload this nuget dependecies:
 >  ```
-  Microsoft.Web.WebView2
-  Newtonsoft.Json
-  System.IO.Compression.ZipFile
-  ```
+> Microsoft.Web.WebView2
+> Newtonsoft.Json
+> System.IO.Compression.ZipFile
+> ```
 
 
 
