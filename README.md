@@ -37,18 +37,8 @@ For those of you who want to install mods manually, take a look at Atomic's vid 
 </p>
 
 > [!IMPORTANT]
-> Your antivirus may prevent you from downloading or running this program. This is a false positive, so feel free to make an exception for BRMM in your antivirus. The source code is included for anyone concerned.
+> BRMM needs to be run as an administrator to work properly. (I know it's kind of annoying, but I will fix it in the next update.)
 
-BRMM is made entirely in **Python 3.12.2** to handle the file operations and the GUI.
-
-To use BRMM, download `BRMM.zip` through the "Releases" page or from [this link](https://github.com/anonymous-editor/BRMM/releases/latest).
-
-Once BRMM launches, you should see two windows as shown below:
-
-![Home_Screen](https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG)
-![image](https://github.com/anonymous-editor/BRMM/assets/74514726/4157a823-a96b-4511-9103-d611eb6e6b07)
-
-You can use the terminal to check if your download operations are successful or not.
 
 ## Contributing to BRMM
 
