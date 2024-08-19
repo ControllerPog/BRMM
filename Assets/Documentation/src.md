@@ -7,6 +7,7 @@ To open the BRMM from source, you'll need:
 - `.Net Framework 4.7.2`
 - `webview2` aka Bootstrapper
 
+
 > [!TIP]
 > If the project says that it is missing dependencies, you can redownload this NuGet dependencies:
 >  ```
