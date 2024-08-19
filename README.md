@@ -23,7 +23,7 @@ For those concerned about this app, a [privacy policy](https://github.com/Contro
 # Using BRMM:
 ## BRMM Showcase:
 
-<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_installator.PNG" alt="Home Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG" alt="Installation Screenshot">
 
 ## Getting Started with BRMM:
 
@@ -31,7 +31,7 @@ To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' p
 
 When you run the BRMM installer, you should see this:
 
-<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG" alt="Installation Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_installator.PNG" alt="Home Screenshot">
 
 Once you've installed BRMM, you can run it and enjoy it!
 
