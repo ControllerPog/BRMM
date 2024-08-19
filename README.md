@@ -57,7 +57,7 @@ Once you've installed BRMM, you can run it and enjoy it!
 
 ### Source Code:
 
-Anyone (who wants to improve BRMM) can make pull requests to `BRMM_latest.py`. Be sure to provide a description of what you want to change however, so that it is more likely to be approved. This is a **semi-community project**, so please don't fork the project into another public repository, unless if it is being used to assist with this project.
+Anyone (who wants to improve BRMM) can make pull requests to `src`. Be sure to provide a description of what you want to change however, so that it is more likely to be approved. This is a **semi-community project**, so please don't fork the project into another public repository, unless if it is being used to assist with this project.
 
 You can run BRMM from source by using [these instructions](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/SOURCECODE.md).
 
