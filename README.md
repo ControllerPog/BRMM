@@ -54,9 +54,11 @@ Anyone (who wants to improve BRMM) can make pull requests to `src`. Be sure to p
 
 You can run BRMM from source by using [these instructions](https://github.com/ControllerPog/BRMM/blob/main/Assets/Documentation/src.md).
 
-### GUI:
+### Uploading Mods:
 
-You can add mod entries to BRMM through [this `.md` file](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/JSONEDITING.md). All instructions are provided in the link.
+Any BRMK modder can upload their mod to BRMM via the Discord bot on the [Brick Rigs BRMM (Official)](https://discord.gg/JnhTBsAgqv) server or on the Funky server (As I'm writing this, the BRMM bot is not currently on the Funky server).
+
+Here are instructions on how to upload and update your mod on BRMM.
 
 ## Credits:
 - [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
