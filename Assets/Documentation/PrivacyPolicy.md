@@ -133,7 +133,7 @@
 <p>If you have any questions about this Privacy Policy, You can contact us:</p>
 <ul>
 <li>
-<p>By email: mrmicrocontrollermain@gmail.com</p>
+<p>By email: support@brmm.ovh</p>
 </li>
 <li>
 <p>By visiting this page on our website: <a href="https://brmm.ovh" rel="external nofollow noopener" target="_blank">https://brmm.ovh</a></p>
