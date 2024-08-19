@@ -47,7 +47,7 @@ When you run the BRMM installer, you should see this:
 Once you've installed BRMM, you can run it and enjoy it!
 
 > [!TIP]
-"If you're looking for the code to log in to BRMM, join this [Discord server](https://discord.gg/JnhTBsAgqv) and run the **/code** command to get the code.
+> If you're looking for the code to log in to BRMM, join this [Discord server](https://discord.gg/JnhTBsAgqv) and run the **/code** command to get the code.
 
 > [!IMPORTANT]
 > BRMM needs to be run as an administrator to work properly.
