@@ -1054,7 +1054,7 @@ Page("Home");
     if (modDescription.length > 100) {
         modDescriptionP.textContent =  modDescription.substring(0, 100) + "...";
     }
-    else if (modDescription.length < 46) {
+    else if (modDescription.length <= 48) {
         modDescriptionP.textContent =  modDescription;
         bottomPartDiv.appendChild(modbreak);
     }
@@ -1287,6 +1287,8 @@ function CreateModforSectionMyModpcks(mod,modpack){
                 modPackStatsDiv.className = 'Modpack_div_mod_stats';
                 const img = document.createElement('img');
                 img.src = mod.Imge;
+                img.style.width = '60px';
+
                 modPackStatsDiv.appendChild(img);
                 const extraDataDiv = document.createElement('div');
                 extraDataDiv.className = 'ExtraData';
@@ -1295,6 +1297,8 @@ function CreateModforSectionMyModpcks(mod,modpack){
                 extraDataDiv.appendChild(p);
                 const h5 = document.createElement('h5');
                 h5.textContent = `By ${mod.Author}`;
+                h5.style.textAlign = 'left';
+
                 extraDataDiv.appendChild(h5);
                 modPackStatsDiv.appendChild(extraDataDiv);
                 modPackDiv.appendChild(modPackStatsDiv);
