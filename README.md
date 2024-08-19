@@ -18,23 +18,12 @@ This is BRMM, an unofficial, 'plug and play' mod management solution for Brick R
 - Create Modpacks for BrickRigs.
 - Display prompts about if the mod is installed/not, etc.
   
-For those concerned about this app, a [privacy policy](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/PRIVACYPOLICY.md) and [terms and conditions document](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/T%26C.md) are included.
+For those concerned about this app, a [privacy policy](https://github.com/ControllerPog/BRMM/blob/main/Assets/Documentation/PrivacyPolicy.md) and [terms and conditions document](https://github.com/ControllerPog/BRMM/blob/main/Assets/Documentation/T%26C.md) are included.
 
 # Using BRMM:
-## Mod Showcase:
+## BRMM Showcase:
 
-> [!TIP]
-> Be sure to open the video in a new tab.
-
-## Install Guide:
-
-For those of you who want to install mods manually, take a look at Atomic's vid instead.
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=a4IIA1PuZEg" target="_blank" rel="noopener noreferrer">
-     <img src="https://img.youtube.com/vi/a4IIA1PuZEg/maxresdefault.jpg" alt="Video">
-  </a>
-</p>
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG" alt="Installation Screenshot">
 
 ## Getting Started with BRMM:
 
@@ -42,7 +31,7 @@ To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' p
 
 When you run the BRMM installer, you should see this:
 
-<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_installator.PNG" alt="Installation Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_installator.PNG" alt="Home Screenshot">
 
 Once you've installed BRMM, you can run it and enjoy it!
 
