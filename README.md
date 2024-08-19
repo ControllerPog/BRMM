@@ -36,8 +36,9 @@ For those of you who want to install mods manually, take a look at Atomic's vid 
   </a>
 </p>
 
-## Getting Started:
+## Getting Started with BRMM:
 
+To start with BRMM, you need to download the installer from the 'Releases' page or from [this link](https://github.com/anonymous-editor/BRMM/releases/latest).
 
 > [!IMPORTANT]
 > BRMM needs to be run as an administrator to work properly. (I know it's kind of annoying, but I will fix it in the next update.)
