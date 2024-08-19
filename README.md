@@ -42,7 +42,7 @@ To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' p
 
 When you run the BRMM installer, you should see this:
 
-<img src="https://img.youtube.com/vi/a4IIA1PuZEg/maxresdefault.jpg" alt="Installation Screenshot">
+<img src="https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_installator.PNG" alt="Installation Screenshot">
 
 Once you've installed BRMM, you can run it and enjoy it!
 
