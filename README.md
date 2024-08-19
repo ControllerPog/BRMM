@@ -45,7 +45,7 @@ To use BRMM, download `BRMM.zip` through the "Releases" page or from [this link]
 
 Once BRMM launches, you should see two windows as shown below:
 
-![Screenshot 2024-01-28 162653](https://github.com/anonymous-editor/BRMM/assets/74514726/30b49672-5f25-4fda-9af5-844e99521adc)
+![Home_Screen](https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/ss_brmm_home.PNG)
 ![image](https://github.com/anonymous-editor/BRMM/assets/74514726/4157a823-a96b-4511-9103-d611eb6e6b07)
 
 You can use the terminal to check if your download operations are successful or not.
