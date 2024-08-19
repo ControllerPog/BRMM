@@ -26,14 +26,6 @@ For those concerned about this app, a [privacy policy](https://github.com/anonym
 > [!TIP]
 > Be sure to open the video in a new tab.
 
-HUGE thanks to Andi_pog for making this vid to showcase BRMM.
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=N1n8hyOlo_k" target="_blank" rel="noopener noreferrer">
-     <img src="https://img.youtube.com/vi/N1n8hyOlo_k/maxresdefault.jpg" alt="Video">
-  </a>
-</p>
-
 ## Install Guide:
 
 For those of you who want to install mods manually, take a look at Atomic's vid instead.
