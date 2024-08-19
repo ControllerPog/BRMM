@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="=https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/main_logo.png" width=100% height=50%>
+  <img src="=https://github.com/ControllerPog/BRMM/blob/main/Assets/Img/main_logo.png" width=100% height=100%>
 </p>
 
 ## System Requirements:
