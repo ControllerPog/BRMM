@@ -10,21 +10,10 @@ To open the BRMM from source, you'll need:
 > [!TIP]
 > If the project says that it is missing dependencies, you can redownload this NuGet dependencies:
 >  ```
-> [Microsoft.Web.WebView2](https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.2651.64)
-> [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json/13.0.3)
-> [System.IO.Compression.ZipFile](https://www.nuget.org/packages/System.IO.Compression.ZipFile/4.3.0/)
+> Microsoft.Web.WebView2
+> Newtonsoft.Json
+> System.IO.Compression.ZipFile
 > ```
-
-
-
-
-Install these modules using the commands listed below:
-
-  ```
-  pip install customtkinter
-  pip install Pillow
-  pip install gdown
-  ```
 
 Instructions to install things via `pip` can be found [here](https://pip.pypa.io/en/stable/installation/)
 
