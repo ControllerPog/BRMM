@@ -879,6 +879,12 @@
     height: 70px;
 }
 
+.p_mod_mods{
+    text-align: left;
+    margin-left: 15px;
+    width: 100%;
+}
+
 </style>
 
 <script>
@@ -1042,8 +1048,8 @@ Page("Home");
 
     const modDescriptionP = document.createElement('p');
     const modbreak = document.createElement('br');
-    modDescriptionP.style.textAlign = 'left';
-    modDescriptionP.style.marginLeft = '15px';
+    modDescriptionP.className = 'p_mod_mods';
+
     bottomPartDiv.appendChild(modDescriptionP);
     if (modDescription.length > 100) {
         modDescriptionP.textContent =  modDescription.substring(0, 100) + "...";
