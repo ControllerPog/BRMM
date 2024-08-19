@@ -71,5 +71,5 @@ You can run BRMM from source by using [these instructions](https://github.com/an
 You can add mod entries to BRMM through [this `.md` file](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/JSONEDITING.md). All instructions are provided in the link.
 
 ## Credits:
-- [KoT3isGood](https://github.com/KoT3isGood): Created a draft of implementing JSON code into BRMM, along with creating other commits.
-- [Copper](https://github.com/FateUnix29): Added some configuration values into the original BRMM source code. Later on (about the time of this readme.md update), mostly responsible for 3.2.1. (Everything but image caching, actually.)
+- [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
+
