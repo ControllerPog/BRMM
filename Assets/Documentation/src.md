@@ -16,6 +16,6 @@ To open the BRMM from source, you'll need:
 > System.IO.Compression.ZipFile
 > ```
 
-Instructions to install things via `pip` can be found [here](https://pip.pypa.io/en/stable/installation/)
+Instructions to install things via `nuget` can be found [here](https://learn.microsoft.com/en-us/nuget/install-nuget-client-tools)
 
 Once you're done with everything, you should be able to simply open BrmmSlim.sln.
