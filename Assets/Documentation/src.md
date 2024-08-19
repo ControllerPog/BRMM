@@ -9,7 +9,7 @@ To open the BRMM from source, you'll need:
 
 
 > [!TIP]
-> If the project says that it is missing dependencies, you can redownload this NuGet dependencies:
+> If project says that it is missing dependencies, you can redownload this NuGet dependencies:
 >  ```
 > Microsoft.Web.WebView2
 > Newtonsoft.Json
