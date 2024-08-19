@@ -60,4 +60,4 @@ You can add mod entries to BRMM through [this `.md` file](https://github.com/ano
 
 ## Credits:
 - [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
-
+- Akizek: For making ss for brmm.
