@@ -879,6 +879,12 @@
     height: 70px;
 }
 
+.p_mod_mods{
+    text-align: left;
+    margin-left: 15px;
+    width: 100%;
+}
+
 </style>
 
 <script>
@@ -914,7 +920,7 @@ ModList();
 Page("Home");
     async function authenticateUser(token) {
         try {
-            const response = await fetch("http://localhost:4000/api/auth", {
+            const response = await fetch("https://service.brmm.ovh/api/auth", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -954,7 +960,7 @@ Page("Home");
 
     async function ModList() {
     try {
-        const response = await fetch('http://localhost:4000/api/get');
+        const response = await fetch('https://service.brmm.ovh/api/get');
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
@@ -1042,13 +1048,13 @@ Page("Home");
 
     const modDescriptionP = document.createElement('p');
     const modbreak = document.createElement('br');
-    modDescriptionP.style.textAlign = 'left';
-    modDescriptionP.style.marginLeft = '15px';
+    modDescriptionP.className = 'p_mod_mods';
+
     bottomPartDiv.appendChild(modDescriptionP);
     if (modDescription.length > 100) {
         modDescriptionP.textContent =  modDescription.substring(0, 100) + "...";
     }
-    else if (modDescription.length < 46) {
+    else if (modDescription.length <= 48) {
         modDescriptionP.textContent =  modDescription;
         bottomPartDiv.appendChild(modbreak);
     }
@@ -1057,7 +1063,7 @@ Page("Home");
     }
 
     const modDownloadsA = document.createElement('a');
-    modDownloadsA.textContent = `${modDownloads} • Downloads • ${modDownloads} • Version • Read More`;
+    modDownloadsA.textContent = `${modDownloads} • Downloads • ${Version} • Version • Read More`;
     bottomPartDiv.appendChild(modDownloadsA);
 
     const modHolder = document.getElementById('ModHolder');
@@ -1281,6 +1287,8 @@ function CreateModforSectionMyModpcks(mod,modpack){
                 modPackStatsDiv.className = 'Modpack_div_mod_stats';
                 const img = document.createElement('img');
                 img.src = mod.Imge;
+                img.style.width = '60px';
+
                 modPackStatsDiv.appendChild(img);
                 const extraDataDiv = document.createElement('div');
                 extraDataDiv.className = 'ExtraData';
@@ -1289,6 +1297,8 @@ function CreateModforSectionMyModpcks(mod,modpack){
                 extraDataDiv.appendChild(p);
                 const h5 = document.createElement('h5');
                 h5.textContent = `By ${mod.Author}`;
+                h5.style.textAlign = 'left';
+
                 extraDataDiv.appendChild(h5);
                 modPackStatsDiv.appendChild(extraDataDiv);
                 modPackDiv.appendChild(modPackStatsDiv);
