@@ -12,11 +12,12 @@ Brick Rigs, version 1.6+
 ## What is This?
 
 This is BRMM, an unofficial, 'plug and play' mod management solution for Brick Rigs. It can:
-- Load all mod entries in the GUI through the web.
-- Choose and remember your Brick Rigs install path.
+- Load Mods into gui.
+- Auto find Brick Rigs install path.
 - Install and/or extract mods to those paths.
+- Create Modpacks for BrickRigs.
 - Display prompts about if the mod is installed/not, etc.
-
+  
 For those concerned about this app, a [privacy policy](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/PRIVACYPOLICY.md) and [terms and conditions document](https://github.com/anonymous-editor/BRMM/blob/main/Documentation/T%26C.md) are included.
 
 # Using BRMM:
