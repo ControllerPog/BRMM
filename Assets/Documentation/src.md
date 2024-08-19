@@ -2,17 +2,21 @@
 
 The source code is included in `src` folder.
 
-To open the script from source, you'll need:
-- An IDE (I just used `Visual Studio Code`)
-- `Python 3.11.5` (Lowest version successfully ran and developed on)
+To open the BRMM from source, you'll need:
+- `Visual Studio`
+- `.Net Framework 4.7.2`
+- `webview2` aka Bootstrapper
 
-To actually run the script, you'll need the following dependecies:
+> [!TIP]
+> If project says that is missing deoebdecies u can redownload this nuget dependecies:
+>  ```
+  Microsoft.Web.WebView2
+  Newtonsoft.Json
+  System.IO.Compression.ZipFile
   ```
-  customtkinter
-  pillow (Python Imaging Library)
-  gdown
-  webbrowser
-  ```
+
+
+
 
 Install these modules using the commands listed below:
 
