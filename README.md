@@ -38,10 +38,20 @@ For those of you who want to install mods manually, take a look at Atomic's vid 
 
 ## Getting Started with BRMM:
 
-To start with BRMM, you need to download the installer from the 'Releases' page or from [this link](https://github.com/ControllerPog/BRMM/releases/latest).
+To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' page or from this link.
+
+When you run the BRMM installer, you should see this:
+
+<img src="https://img.youtube.com/vi/a4IIA1PuZEg/maxresdefault.jpg" alt="Installation Screenshot">
+
+Once you've installed BRMM, you can run it and enjoy it!
+
+> [!TIP]
+"If you're looking for the code to log in to BRMM, join this [Discord server](https://discord.gg/JnhTBsAgqv) and run the **/code** command to get the code.
 
 > [!IMPORTANT]
-> BRMM needs to be run as an administrator to work properly. (I know it's kind of annoying, but I will fix it in the next update.)
+> BRMM needs to be run as an administrator to work properly.
+> (I know it's kind of annoying, but I will fix it in the next update.)
 
 ## Contributing to BRMM
 
