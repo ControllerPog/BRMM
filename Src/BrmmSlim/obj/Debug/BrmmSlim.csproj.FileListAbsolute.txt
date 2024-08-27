@@ -66,4 +66,4 @@ C:\Users\Lenovo\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSli
 C:\Users\Lenovo\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSlim.csproj.CopyComplete
 C:\Users\Lenovo\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSlim.exe
 C:\Users\Lenovo\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSlim.pdb
-C:\Users\StevToPL\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSlim.ModStatus.resources
+C:\Users\StevToPL\Documents\GitHub\Brmm-Client\BrmmSlim\BrmmSlim\obj\Debug\BrmmSlim.ModPackStatus.resources

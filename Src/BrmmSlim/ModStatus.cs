@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -11,43 +12,85 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static BrmmSlim.ModPack_Manager;
 
 namespace BrmmSlim
 {
-    public partial class ModStatus : Form
+    public partial class ModPackStatus : Form
     {
         WebClient wc;
-        public ModStatus()
+        ModPack mopdack_global;
+        int mod = 0;
+        private readonly System.Diagnostics.Stopwatch stopwatch = new System.Diagnostics.Stopwatch();
+        public ModPackStatus()
         {
             InitializeComponent();
         }
 
         private void ModStatus_Load(object sender, EventArgs e)
         {
-            wc = new WebClient();
-            wc.DownloadProgressChanged += Wc_DownloadProgressChanged;
-            wc.DownloadFileCompleted += Wc_DownloadFileCompleted;
         }
 
         private void Wc_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
-            Random rnd = new Random();
-            Invoke(new MethodInvoker(delegate ()
+            string downloadProgress = e.ProgressPercentage + "%";
+
+            double downloadSpeedInBytesPerSecond = e.BytesReceived / stopwatch.Elapsed.TotalSeconds;
+            string downloadSpeed = string.Format("{0} MB/s", (e.BytesReceived / 1024.0 / 1024.0 / stopwatch.Elapsed.TotalSeconds).ToString("0.00"));
+
+            string downloadedMBs = Math.Round(e.BytesReceived / 1024.0 / 1024.0, 2) + " MB";
+            string totalMBs = Math.Round(e.TotalBytesToReceive / 1024.0 / 1024.0, 2) + " MB";
+
+            string progress = $"{downloadedMBs}/{totalMBs} ({downloadProgress}) @ {downloadSpeed}";
+
+            string download_mods_status = $"Downloading {mopdack_global.Mods[mod].Name} {mod}/{mopdack_global.Mods.Count}";
+
+            progressBarDownload.Invoke((MethodInvoker)delegate
             {
-                progressBarDownload.Minimum = 00;
-                progressBarDownload.Maximum = 100;
-                double total = double.Parse(e.BytesReceived.ToString());
-                double recive = double.Parse(e.TotalBytesToReceive.ToString());
-                double DonloadBar = recive / total * 90 + 10;
-                progressBarDownload.Value=int.Parse(Math.Truncate(DonloadBar).ToString());
-            }));
+                label_Doanwloading_Mod.Text = download_mods_status;
+                DownloadSpeedsLable.Text = progress;
+                progressBarDownload.Value = e.ProgressPercentage;
+            });
         }
 
-        private async void Wc_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
+        internal async void DownloadFile(string token, ModPack modPack, string brickRigsPath, string steamPath, ModPack_Manager modPack_Manager, Form1 form)
         {
-            await Task.Delay(1000); 
+            string modsFolderPath = "./Mods";
+            mopdack_global = modPack;
+            foreach (var mod in modPack.Mods)
+            {
+                string serverVersion = mod.Version.ToString();
+                string serverImage = mod.Imge.ToString();
+                string modZipPath = Path.Combine(modsFolderPath, $"{mod.Name.Replace(" ", "_")}.zip");
 
-            if (e.Error == null && !e.Cancelled)
+                if (!File.Exists(modZipPath) || string.Compare(mod.Version, serverVersion) < 0)
+                {
+                    mod.Version = serverVersion;
+                    mod.Imge = serverImage;
+
+                    string apiUrl = $"https://service2.brmm.ovh/api/download/{token}/{mod.Name.Replace(" ", "_")}.zip";
+                    Uri uri = new Uri(apiUrl);
+
+                    Console.WriteLine($"Starting download for mod: {mod.Name}, version: {mod.Version}");
+
+                    try
+                    {
+                        await DownloadFileAsync(uri, modZipPath);
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine($"Failed to download mod: {mod.Name}, Error: {ex.Message}");
+                        MessageBox.Show($"Failed to download mod: {mod.Name}.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    Console.WriteLine($"Finished downloading mod: {mod.Name}, version: {mod.Version}");
+                }
+            }
+
+            // Nuh uh
+            //this.Close();
+            modPack_Manager.PlayModPack(modPack.Name, token, brickRigsPath, steamPath, false, form);
+            if (this.InvokeRequired)
             {
                 this.Invoke(new MethodInvoker(delegate
                 {
@@ -56,35 +99,48 @@ namespace BrmmSlim
             }
             else
             {
-                this.Invoke(new MethodInvoker(delegate
-                {
-                    MessageBox.Show("Download failed or was canceled.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }));
+                this.Close();
             }
+
         }
-        public async Task DownloadFile(string token, string fileName)
+
+        private async Task DownloadFileAsync(Uri uri, string filePath)
         {
-            string apiUrl = $"https://service.brmm.ovh/api/download/{token}/{fileName}.zip";
-            string modsFolderPath = "./Mods";
+            var tcs = new TaskCompletionSource<object>();
 
-
-            Console.WriteLine("Downloading " + fileName);
-
-            //main_label.Text = "Downloading " + fileName;
-
-            if (!Directory.Exists(modsFolderPath))
+            using (var webClient = new WebClient())
             {
-                Directory.CreateDirectory(modsFolderPath);
+                webClient.DownloadProgressChanged += Wc_DownloadProgressChanged;
+
+                stopwatch.Restart();
+
+                webClient.DownloadFileCompleted += (s, e) =>
+                {
+                    if (e.Cancelled)
+                    {
+                        tcs.SetCanceled();
+                    }
+                    else if (e.Error != null)
+                    {
+                        tcs.SetException(e.Error);
+                    }
+                    else
+                    {
+                        tcs.SetResult(null);
+                    }
+
+                    mod += 1;
+                    stopwatch.Stop();
+                };
+
+
+                webClient.DownloadFileAsync(uri, filePath);
+
+                await tcs.Task;
             }
-
-            string filePath = Path.Combine(modsFolderPath, fileName + ".zip");
-
-            Thread thread = new Thread(() =>
-            {
-                Uri uri = new Uri(apiUrl);
-                wc.DownloadFileAsync(uri, filePath);
-            });
-            thread.Start();
         }
+
+
+
     }
 }

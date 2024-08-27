@@ -24,6 +24,10 @@ namespace BrmmSlim
             public string DownloadUrl { get; set; }
             public string Version { get; set; }
         }
+        public class RootObject
+        {
+            public string Message { get; set; }
+        }
 
         public class ModPack
         {
@@ -31,6 +35,7 @@ namespace BrmmSlim
             public string Name { get; set; }
             public string Author { get; set; }
 
+            public string ModpackVersion { get; set; }
             public List<Mod> Mods { get; set; }
         }
         public static void CreateModPackJson( string name, string iconUrl, string displayName, List<Mod> mods, string author)
@@ -40,7 +45,8 @@ namespace BrmmSlim
                 IconUrl = iconUrl,
                 Name = displayName,
                 Author = author,
-                Mods = mods
+                Mods = mods,
+                ModpackVersion = "1"
             };
 
             string json = JsonConvert.SerializeObject(modPack, Formatting.Indented);
@@ -129,11 +135,53 @@ namespace BrmmSlim
             }
         }
 
-        private bool isWorking = false;
-        private bool isupdates = false;
-
-        public async void PlayModPack(string modPackName, string token, string BrickRigsPath, string SteamPath)
+        public async void DownloadModpack(string Token, string ModpackName, string ID)
         {
+            HttpClient client = new HttpClient();
+            string apiUrl = $"https://service2.brmm.ovh/api/download/modpack/{Token}/{ModpackName}/{ID}";
+
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(apiUrl);
+                response.EnsureSuccessStatusCode();
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                RootObject root = JsonConvert.DeserializeObject<RootObject>(responseBody);
+                string modpackJson = root.Message;
+
+                ModPack modpackData = JsonConvert.DeserializeObject<ModPack>(modpackJson);
+
+                // Serializuj obiekt z formatowaniem JSON
+                string outputJson = JsonConvert.SerializeObject(modpackData, Formatting.Indented);
+
+                // Usuń znaki Unicode
+                outputJson = RemoveUnicodeCharacters(outputJson);
+
+                string outputPath = $"./ModPacks/{ModpackName}_modpack.json";
+                File.WriteAllText(outputPath, outputJson);
+
+                Console.WriteLine($"Modpack '{ModpackName}' saved successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+
+        private string RemoveUnicodeCharacters(string input)
+        {
+            return new string(input.Where(c => c <= 127).ToArray());
+        }
+
+
+        private bool isWorking = false;
+        private bool isUpdates = false;
+
+        public async void PlayModPack(string modPackName, string token, string brickRigsPath, string steamPath, bool updateforce, Form1 form)
+        {
+
+            isUpdates = updateforce;
+
             if (isWorking)
                 return;
 
@@ -151,7 +199,7 @@ namespace BrmmSlim
             string json = File.ReadAllText(fileName);
             var modPack = JsonConvert.DeserializeObject<ModPack>(json);
 
-            string url = "https://service.brmm.ovh/api/get";
+            string url = "https://service2.brmm.ovh/api/get";
 
             try
             {
@@ -163,175 +211,111 @@ namespace BrmmSlim
                     string responseBody = await response.Content.ReadAsStringAsync();
                     JArray jsonArray = JArray.Parse(responseBody);
 
-                    bool isUpdated = false;
                     List<Task> downloadTasks = new List<Task>();
 
-                    foreach (var mods in modPack.Mods)
+                    // Parallel processing of mods
+                    Parallel.ForEach(modPack.Mods, mod =>
                     {
 
+                        string serverVersion = mod.Version.ToString();
+                        string serverImage = mod.Imge.ToString();
+                        string modZipPath = $"./Mods/{mod.Name.Replace(" ", "_")}.zip";
 
-                        var serverMod = jsonArray.FirstOrDefault(item => item["Name"].ToString() == mods.Name);
-
-                        if (serverMod != null)
+                        if (!File.Exists(modZipPath) || string.Compare(mod.Version, serverVersion) < 0)
                         {
-
-
-                            string serverVersion = serverMod["Version_Mod"].ToString();
-                            string serverImge = serverMod["Logo_Imge_Link"].ToString();
-
-                            if (!File.Exists("./Mods/" + mods.Name.Replace(" ", "_") + ".zip"))
-                            {
-
-                                Console.WriteLine(File.Exists("./Mods/" + mods.Name.Replace(" ", "_") + ".zip"));
-
-                                isupdates = true;
-                                var fileDownloader = new ModStatus();
-                                fileDownloader.Show();
-                                downloadTasks.Add(Task.Run(() => fileDownloader.DownloadFile(token, mods.Name.Replace(" ", "_"))));
-                            }
-
-                            if (string.Compare(mods.Version, serverVersion) < 0)
-                            {
-                                isupdates = true;
-                                // Update mod information
-                                mods.Version = serverVersion;
-                                mods.Imge = serverImge;
-
-                                string modFilePath = "./Mods/" + mods.Name.Replace(" ", "_") + ".zip";
-
-
-                                var fileDownloader = new ModStatus();
-                                fileDownloader.Show();
-                                downloadTasks.Add(Task.Run(() => fileDownloader.DownloadFile(token, mods.Name.Replace(" ", "_"))));
-
-                                isUpdated = true;
-
-                                Console.WriteLine($"Updated mod: {mods.Name} to version {mods.Version}");
-                            }
+                            isUpdates = true;
+                            mod.Version = serverVersion;
+                            mod.Imge = serverImage;
+                            Console.WriteLine($"Queued download for mod: {isUpdates}, version: {mod.Version}");
                         }
-                    }
+                    });
 
-                    await Task.WhenAll(downloadTasks);
+                    Console.WriteLine(isUpdates);
 
-                    Console.WriteLine("All downloads are complete.");
-
-                    if (isUpdated)
+                    if (isUpdates)
                     {
-                        string updatedJson = JsonConvert.SerializeObject(modPack, Formatting.Indented);
-                        File.WriteAllText(fileName, updatedJson);
+                        File.WriteAllText(fileName, JsonConvert.SerializeObject(modPack, Formatting.Indented));
                         Console.WriteLine("Modpack updated and saved.");
+
+                        var fileDownloader = new ModPackStatus();
+                        fileDownloader.Show();
+                        downloadTasks.Add(Task.Run(() => fileDownloader.DownloadFile(token, modPack, brickRigsPath, steamPath, this, form)));
                     }
                     else
                     {
                         Console.WriteLine("All mods are up-to-date.");
                     }
 
-                    if (!isupdates)
+                    // Only proceed with extraction if no new updates
+                    if (!isUpdates)
                     {
-                        if (!IsDirectoryEmpty(BrickRigsPath + "/Mods"))
+                        if (Directory.Exists($"{brickRigsPath}/Mods"))
+                            Directory.Delete($"{brickRigsPath}/Mods", true);
+
+                        Directory.CreateDirectory($"{brickRigsPath}/Mods");
+
+                        Parallel.ForEach(modPack.Mods, mod =>
                         {
-                            Directory.Delete(BrickRigsPath + "/Mods", true);
+                            string modZipPath = $"./Mods/{mod.Name.Replace(" ", "_")}.zip";
+                            string extractPath = Path.Combine(brickRigsPath, "Mods");
 
-                        }
-
-                        if (!Directory.Exists(BrickRigsPath + "/Mods"))
-                        {
-                            Directory.CreateDirectory(BrickRigsPath + "/Mods");
-                        }
-
-
-
-
-                        foreach (var mods in modPack.Mods)
-                        {
-                            //Console.WriteLine("./Mods/" + mods.DownloadUrl.Replace(" ", "_") + " Niggers " + BrickRigsPath + "/Mods/");
-                            //ZipFile.ExtractToDirectory("./Mods/" + mods.DownloadUrl.Replace(" ", "_"), BrickRigsPath + "/Mods/");
-
-                            string modsPath = "./Mods/";
-                            string zipFileName = mods.DownloadUrl.Replace(" ", "_");
-                            string zipFilePath = Path.Combine(modsPath, zipFileName);
-                            string extractPath = Path.Combine(BrickRigsPath, "Mods");
-
-                            try
+                            if (File.Exists(modZipPath) && IsZipValid(modZipPath))
                             {
-                                if (!File.Exists(zipFilePath))
-                                {
-                                    Console.WriteLine("ZIP file not found: " + zipFilePath);
-                                    return;
-                                }
-
-                                bool isValidZip = true;
-                                try
-                                {
-                                    using (ZipArchive archive = ZipFile.OpenRead(zipFilePath))
-                                    {
-                                        if (archive.Entries.Count == 0)
-                                        {
-                                            isValidZip = false;
-                                        }
-                                    }
-                                }
-                                catch (InvalidDataException)
-                                {
-                                    isValidZip = false;
-                                }
-                                catch (Exception ex)
-                                {
-                                    Console.WriteLine("Error while checking the ZIP file: " + ex.Message);
-                                    return;
-                                }
-
-                                if (!isValidZip)
-                                {
-                                    Console.WriteLine("The ZIP file is corrupted or empty. Deleting file: " + zipFilePath);
-                                    File.Delete(zipFilePath);
-                                    return;
-                                }
-
-                                if (!Directory.Exists(extractPath))
-                                {
-                                    Directory.CreateDirectory(extractPath);
-                                }
-
-                                ZipFile.ExtractToDirectory(zipFilePath, extractPath);
-                                Console.WriteLine("File successfully extracted.");
+                                ZipFile.ExtractToDirectory(modZipPath, extractPath);
+                                Console.WriteLine($"Extracted {mod.Name} to {extractPath}");
                             }
-                            catch (Exception ex)
+                            else
                             {
-                                Console.WriteLine("An error occurred during file extraction: " + ex.Message);
+                                isUpdates = true;
+                                File.Delete(modZipPath);
+                                Console.WriteLine($"Invalid or missing ZIP file: {modZipPath}");
                             }
-                        }
+                        });
+                        Console.WriteLine($"{isUpdates}");
+                        LaunchBrickRigs(steamPath, form);
                     }
-
-                    if (!isupdates)
-                    {
-                        string brickRigsAppID = "552100";
-
-                        string arguments = $"-applaunch {brickRigsAppID}";
-
-                        try
-                        {
-                            Process.Start(SteamPath + "/Steam.exe", arguments);
-                            Console.WriteLine("Brick Rigs is starting via Steam...");
-                        }
-                        catch (Exception ex)
-                        {
-                            Console.WriteLine("An error occurred while trying to start Brick Rigs: " + ex.Message);
-                        }
-                    }
-
-                    isUpdated = false;
-                    isupdates = false;
                 }
             }
             catch (HttpRequestException e)
             {
                 Console.WriteLine($"Request error: {e.Message}");
             }
-
-            isWorking = false;
+            finally
+            {
+                isWorking = false;
+            }
         }
 
+        private void LaunchBrickRigs(string steamPath, Form1 form)
+        {
+
+            try
+            {
+                Process.Start($"{steamPath}/Steam.exe", "-applaunch 552100");
+                Console.WriteLine("Brick Rigs is starting via Steam...");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred while trying to start Brick Rigs: {ex.Message}");
+            }
+
+            form.HandleMessageFromJavaScript("GetModPacks");
+        }
+
+        private bool IsZipValid(string zipFilePath)
+        {
+            try
+            {
+                using (ZipArchive archive = ZipFile.OpenRead(zipFilePath))
+                {
+                    return archive.Entries.Count > 0;
+                }
+            }
+            catch (InvalidDataException)
+            {
+                return false;
+            }
+        }
 
         static bool IsDirectoryEmpty(string path)
         {
@@ -346,10 +330,23 @@ namespace BrmmSlim
 
             if (Directory.Exists(modPacksDirectory))
             {
-                var modPacks = Directory.GetFiles(modPacksDirectory, "*.json")
-                                        .Select(File.ReadAllText)
-                                        .Select(JObject.Parse)
-                                        .ToList();
+                var modPacksFiles = Directory.GetFiles(modPacksDirectory, "*.json");
+                var modPacks = new List<JObject>();
+
+                foreach (var filePath in modPacksFiles)
+                {
+                    var fileContent = File.ReadAllText(filePath);
+                    var modPack = JObject.Parse(fileContent);
+
+                    if (modPack["ModpackVersion"]?.ToString() != "1")
+                    {
+                        modPack["ModpackVersion"] = "1";
+
+                        File.WriteAllText(filePath, modPack.ToString());
+                    }
+
+                    modPacks.Add(modPack);
+                }
 
                 json = new JObject
                 {
@@ -363,6 +360,8 @@ namespace BrmmSlim
             }
 
             return json;
-        } 
+        }
+
+
     }
 }

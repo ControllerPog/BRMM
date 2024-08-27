@@ -10,22 +10,21 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static BrmmSlim.ModPack_Manager;
 using System.IO.Compression;
+using Newtonsoft.Json;
+using System.Net.Http;
+using Microsoft.Web.WebView2.WinForms;
 
 namespace BrmmSlim
 {
     public partial class Form1 : Form
     {
         private ModPack_Manager modPack_Manager;
-
         public string GamePath = "";
         public string SteamPath = "";
-
         public Form1()
         {
             InitializeComponent();
             modPack_Manager = new ModPack_Manager();
-
-
         }
 
         private void webView21_Click(object sender, EventArgs e)
@@ -34,12 +33,12 @@ namespace BrmmSlim
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-
             var userDataFolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\AppName";
             var env = await CoreWebView2Environment.CreateAsync(null, userDataFolder);
             await webView21.EnsureCoreWebView2Async(env);
 
             await InitializeChromium();
+
 
             string steamPath = GetSteamPath();
             if (steamPath == null)
@@ -67,6 +66,18 @@ namespace BrmmSlim
             {
                 Console.WriteLine("No Brick Rigs.");
             }
+
+            string mods = $"./Mods";
+            string modpacks = $"./ModPacks";
+
+            if (!Directory.Exists(mods))
+            {
+                Directory.CreateDirectory(mods);
+            }
+            if (!Directory.Exists(modpacks))
+            {
+                Directory.CreateDirectory(modpacks);
+            }
         }
 
         private async Task InitializeChromium()
@@ -76,12 +87,14 @@ namespace BrmmSlim
             webView21.CoreWebView2.NewWindowRequested += CoreWebView2_NewWindowRequested;
             webView21.CoreWebView2.WebMessageReceived += webView21_WebMessageReceived;
             webView21.ZoomFactor = 0.64;
+
         }
 
         private bool HandelMessage = false;
 
         private void webView21_WebMessageReceived(object sender, CoreWebView2WebMessageReceivedEventArgs e)
         {
+            Console.WriteLine(GamePath);
             if (!HandelMessage)
             {
                 string message = e.TryGetWebMessageAsString();
@@ -91,14 +104,17 @@ namespace BrmmSlim
             }
         }
 
-        private async void HandleMessageFromJavaScript(string message)
+        public async void HandleMessageFromJavaScript(string message)
         {
             try
             {
+                string script = "";
                 string[] options = message.Split(',');
-
+                //MessageBox.Show(options[0]);
                 switch (options[0])
                 {
+
+
                     case "CreateModPack":
                         List<Mod> mods = new List<Mod>
                         {
@@ -109,9 +125,9 @@ namespace BrmmSlim
                         CreateModPackJson(options[1], options[2], options[1], mods, options[3]);
                         break;
                     case "GetModPacks":
-                        var json = modPack_Manager.GetAllModPacks();
-                        string script = $"LoadModpacks({json});";
-                        await webView21.CoreWebView2.ExecuteScriptAsync(script);
+                        var json1 = modPack_Manager.GetAllModPacks();
+                        script = $"LoadModpacks({json1});";
+                        RunAsyncScript(script);
                         break;
                     case "AddModModpack":
                         var newMod = new ModPack_Manager.Mod
@@ -124,7 +140,6 @@ namespace BrmmSlim
                         };
                         //MessageBox.Show($"work '{options[1]}' data '{newMod}'");
                         AddModToModPack(options[1], options[7], newMod);
-                        StartDownload(options);
                         break;
                     case "DeletModFromModPack":
                         var Mod = new ModPack_Manager.Mod
@@ -142,7 +157,14 @@ namespace BrmmSlim
                         DeleteModPack(options[1]);
                         break;
                     case "PlayModpack":
-                        modPack_Manager.PlayModPack(options[1], options[2], GamePath, SteamPath);
+                        modPack_Manager.PlayModPack(options[1], options[2], GamePath, SteamPath, false, this);
+                        break;
+                    case "DownloadModpack":
+                        modPack_Manager.DownloadModpack(options[1], options[2], options[3]);
+                        //MessageBox.Show("works");
+                        break;
+                    case "Support":
+                        Support();
                         break;
                     default:
                         MessageBox.Show("Unknown action from JavaScript.");
@@ -156,6 +178,12 @@ namespace BrmmSlim
             }
 
             HandelMessage = false;
+        }
+
+        public async void RunAsyncScript(string script)
+        {
+            Console.WriteLine(script);
+            await webView21.CoreWebView2.ExecuteScriptAsync(script);
         }
 
         static string GetSteamPath()
@@ -234,28 +262,6 @@ namespace BrmmSlim
         private void Form1_Resize(object sender, EventArgs e)
         {
             SetZoomFactor();
-        }
-
-        private bool isDownloadInProgress = false;
-
-        private async void StartDownload(string[] options)
-        {
-            if (isDownloadInProgress)
-                return;
-
-            if (!File.Exists("./Mods/" +options[2].Replace(" ", "_") + ".zip"))
-            {
-
-                isDownloadInProgress = true; 
-
-                var fileDownloader = new ModStatus();
-                fileDownloader.Show();
-                fileDownloader.DownloadFile(options[7], options[2].Replace(" ", "_"));
-
-                await Task.Delay(100);
-
-                isDownloadInProgress = false;
-            }
         }
 
         private void Support()

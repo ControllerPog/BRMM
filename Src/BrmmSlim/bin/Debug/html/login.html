@@ -19,7 +19,10 @@
               <input placeholder="Enter code" id="code">
             </div>
             <div class="button_holder">
-                <button class="poppins-bold">Support</button>
+              <button class="poppins-bold" style="width: 328px;" onclick="authenticateUser('c0943b1a282a680c1e234f0f06c80961');">Guest</button>
+          </div>
+            <div class="button_holder">
+                <button class="poppins-bold" onclick="window.chrome.webview.postMessage('Support');">Support</button>
                 <button class="poppins-bold" onclick="startAuth()">Login</button>
             </div>
         </div>
@@ -35,11 +38,13 @@ document.addEventListener("DOMContentLoaded", function() {
   authenticateUserAuto();
 });
 
+const url_dev_server = "https://service2.brmm.ovh"
+
 async function startAuth() {
   let code = document.getElementById('code').value;
 
     try {
-        const response = await fetch('https://service.brmm.ovh/api/auth_start', {
+        const response = await fetch(`${url_dev_server}/api/auth_start`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -65,10 +70,9 @@ async function startAuth() {
 
 async function authenticateUser(Token) {
     try {
-        // Sanityzacja tokenu: usuwanie niewidocznych znaków
         const sanitizedToken = sanitizeToken(Token);
         
-        const response = await fetch("https://service.brmm.ovh/api/auth", {
+        const response = await fetch(`${url_dev_server}/api/auth`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -97,7 +101,7 @@ function sanitizeToken(token) {
 async function authenticateUserAuto() {
   let token = localStorage.getItem('Token');
       try {
-          const response = await fetch("https://service.brmm.ovh/api/auth", {
+          const response = await fetch(`${url_dev_server}/api/auth`, {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
@@ -289,7 +293,6 @@ async function authenticateUserAuto() {
       width: 340px;
       border-radius: 5px;
     }
-
 
     .poppins-thin {
   font-family: "Poppins", sans-serif;

@@ -39,7 +39,7 @@ async function startAuth() {
   let code = document.getElementById('code').value;
 
     try {
-        const response = await fetch('https://service.brmm.ovh/api/auth_start', {
+        const response = await fetch('http://localhost:4000/api/auth_start', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ async function authenticateUser(Token) {
         // Sanityzacja tokenu: usuwanie niewidocznych znaków
         const sanitizedToken = sanitizeToken(Token);
         
-        const response = await fetch("https://service.brmm.ovh/api/auth", {
+        const response = await fetch("http://localhost:4000/api/auth", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -97,7 +97,7 @@ function sanitizeToken(token) {
 async function authenticateUserAuto() {
   let token = localStorage.getItem('Token');
       try {
-          const response = await fetch("https://service.brmm.ovh/api/auth", {
+          const response = await fetch("http://localhost:4000/api/auth", {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
